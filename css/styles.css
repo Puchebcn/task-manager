@@ -1,0 +1,20 @@
+/* Estilos principales del TaskManager */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ECHO est† desactivado.
+body {
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+ECHO est† desactivado.
+/* Estilos b√°sicos que completaremos despu√©s */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-md);
+}

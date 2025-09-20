@@ -1,0 +1,16 @@
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+ECHO est  desactivado.
+# OS files
+.DS_Store
+Thumbs.db
+ECHO est  desactivado.
+# Logs
+*.log
+ECHO est  desactivado.
+# Temporary files
+*.tmp
+*.temp

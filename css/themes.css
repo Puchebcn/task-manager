@@ -1,0 +1,18 @@
+/* Temas - Modo oscuro y claro */
+[data-theme="dark"] {
+  --primary-color: #818CF8;
+  --secondary-color: #FBBF24;
+  --background-color: #111827;
+  --background-secondary: #1F2937;
+  --text-color: #F9FAFB;
+  --text-secondary: #9CA3AF;
+  --border-color: #374151;
+  --success-color: #34D399;
+  --warning-color: #FBBF24;
+  --error-color: #F87171;
+}
+ECHO est† desactivado.
+/* Transici√≥n suave entre temas */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
