@@ -1,16 +1,112 @@
+# ===========================================
+# .gitignore para proyecto TaskManager
+# JavaScript Vanilla + HTML + CSS
+# ===========================================
+
 # Editor files
 .vscode/
 .idea/
 *.swp
 *.swo
-ECHO est† desactivado.
+*.sublime-*
+
 # OS files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
-ECHO est† desactivado.
+desktop.ini
+
 # Logs
 *.log
-ECHO est† desactivado.
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
 # Temporary files
 *.tmp
 *.temp
+*~
+.tmp
+
+# Build directories (por si usas bundlers m√°s adelante)
+/dist
+/build
+/.next
+/out
+
+# Dependencies (por si agregas npm m√°s adelante)
+node_modules/
+npm-debug.log*
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Archive files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Windows specific
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# macOS specific
+.AppleDouble
+.LSOverride
+Icon
+
+# Linux specific
+*~
+.directory
+
+# Vim
+*.swp
+*.swo
+*~
+.viminfo
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Project specific
+# (agregar aqu√≠ archivos espec√≠ficos del proyecto si es necesario)
